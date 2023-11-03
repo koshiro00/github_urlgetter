@@ -1,0 +1,18 @@
+.env
+style.css.map
+style.scss
+memo.txt
+
+# 文字列マッチが見つかるパスを除外する
+.venv
+output_repository
+tests
+
+# ディレクトリ配下（のすべてのパスを）除外する
+.venv/
+output_repository/
+tests/
+build/
+dist/
+images/
+
