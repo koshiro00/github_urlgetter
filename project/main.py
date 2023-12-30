@@ -89,14 +89,9 @@ def get_raw_urls(owner, repo, token, path='', current_tree=None):
 # ◼️◼️◼️◼️◼️◼️◼️◼️◼️◼️◼️◼️◼️◼️◼️◼️◼️◼️◼️◼️◼️◼️
 # .env ファイルをロード
 dotenv.load_dotenv()
-# github情報
-<<<<<<< HEAD
-owner = "koushirou00" 
-token = "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"  
-=======
+# githubアカウント
 owner = os.getenv('OWNER')
 token = os.getenv('TOKEN')
->>>>>>> ae2cfef (✨)
 
 # 時間
 t_delta = datetime.timedelta(hours=9)
