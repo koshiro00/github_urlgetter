@@ -123,7 +123,7 @@ if __name__ == '__main__':
       commit_count = get_commit_count(owner, repo, token)
 
       # ログファイル
-      file_path = f'/Users/yukiokakoushirou/Downloads/ツール/Python/github_urlgetter/output_repository/{repo}.txt'
+      file_path = f'/Users/username/Downloads/github_urlgetter/output_repository/{repo}.txt'
       log_file = open(file_path, mode='w')
       log_file.write(f'実行日: {date}\nリポジトリ: {repo}、現在コミット数: {commit_count}\n\nProject\n') 
 
