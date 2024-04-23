@@ -15,4 +15,5 @@ tests/
 build/
 dist/
 images/
+.vscode/
 
